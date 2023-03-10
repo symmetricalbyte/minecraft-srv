@@ -16,15 +16,23 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1678438130418
-  login: 1678433705231
+  logout: 1678467285519
+  login: 1678465146024
 money: '0'
 last-account-name: AmiAkibNa
 logoutlocation:
   world: 984ea547-a616-499b-9abc-e96efd34e3ab
   world-name: leave
-  x: 395.62209353744123
-  y: 65.0
-  z: 212.5694983760822
-  yaw: -84.6668701171875
-  pitch: 26.391315460205078
+  x: 387.20970076773807
+  y: 63.0
+  z: 204.97160370112942
+  yaw: 164.52731323242188
+  pitch: 45.22688293457031
+lastlocation:
+  world: 984ea547-a616-499b-9abc-e96efd34e3ab
+  world-name: leave
+  x: 459.24255025016856
+  y: -6.0
+  z: -104.23577219912674
+  yaw: -166.8128662109375
+  pitch: 21.16081428527832

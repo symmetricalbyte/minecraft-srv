@@ -1,111 +1,1275 @@
-[15:47:48] [ServerMain/INFO]: Building unoptimized datafixer
-[15:47:50] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[15:47:52] [ServerMain/INFO]: Loaded 7 recipes
-[15:47:52] [Server thread/INFO]: Starting minecraft server version 1.19.3
-[15:47:52] [Server thread/INFO]: Loading properties
-[15:47:52] [Server thread/INFO]: This server is running Paper version git-Paper-445 (MC: 1.19.3) (Implementing API version 1.19.3-R0.1-SNAPSHOT) (Git: 4d7269e)
-[15:47:53] [Server thread/INFO]: Using 4 threads for Netty based IO
-[15:47:53] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[15:47:53] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 2 worker threads, and gen parallelism of 2 threads
-[15:47:53] [Server thread/INFO]: Default game type: SURVIVAL
-[15:47:53] [Server thread/INFO]: Generating keypair
-[15:47:53] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:25565
-[15:47:53] [Server thread/INFO]: Using default channel type
-[15:47:53] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[15:47:53] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[15:47:54] [Server thread/WARN]: [org.bukkit.craftbukkit.v1_19_R2.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[15:47:58] [Server thread/WARN]: Legacy plugin SimpleTpa v6.2 does not specify an api-version.
-[15:47:58] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.19.7
-[15:47:58] [Server thread/INFO]: [SimpleTpa] Loading server plugin SimpleTpa v6.2
-[15:47:58] [Server thread/INFO]: [SetHomes] Loading server plugin SetHomes v1.3.0
-[15:47:58] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.19.7
-[15:47:58] [Server thread/INFO]: [CoreProtect] Loading server plugin CoreProtect v21.3
-[15:47:58] [Server thread/INFO]: [ClearLag] Loading server plugin ClearLag v3.2.2
-[15:47:58] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[15:47:58] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[15:47:58] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[15:47:58] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[15:47:58] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[15:47:58] [Server thread/INFO]: Preparing level "leave"
-[15:47:59] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[15:47:59] [Server thread/INFO]: Time elapsed: 119 ms
-[15:47:59] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[15:47:59] [Server thread/INFO]: Time elapsed: 28 ms
-[15:47:59] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[15:47:59] [Server thread/INFO]: Time elapsed: 24 ms
-[15:47:59] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.7
-[15:47:59] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[15:47:59] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[15:47:59] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[15:48:00] [Server thread/INFO]: [Essentials] Loaded 38132 items from items.json.
-[15:48:00] [Server thread/INFO]: [Essentials] Using locale en_US
-[15:48:00] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[15:48:00] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[15:48:00] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[15:48:00] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.2*
-[15:48:00] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
-[15:48:00] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been enabled on version 6.2
-[15:48:00] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
-[15:48:00] [Server thread/INFO]: [SetHomes] Enabling SetHomes v1.3.0
-[15:48:00] [Server thread/INFO]: [SetHomes] Luck perms was not found! Reverting to vault...
-[15:48:00] [Server thread/INFO]: [SetHomes] Vault was not found.
-[15:48:00] [Server thread/WARN]: [SetHomes] Could not connect to a permissions plugin! Config setting "max-homes" will be ignored!
-[15:48:00] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.19.7
-[15:48:00] [Server thread/INFO]: [EssentialsChat] Secure signed chat and previews are enabled.
-[15:48:00] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
-[15:48:00] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v21.3
-[15:48:00] [Server thread/INFO]: [CoreProtect] CoreProtect has been successfully enabled! 
-[15:48:00] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
-[15:48:00] [Server thread/INFO]: --------------------
-[15:48:00] [Server thread/INFO]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
-[15:48:00] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
-[15:48:00] [Server thread/INFO]: --------------------
-[15:48:00] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
-[15:48:00] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
-[15:48:00] [Server thread/INFO]: [ClearLag] Loading modules...
-[15:48:00] [Server thread/WARN]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (net.minecraft.server.v1_19_R2.MinecraftServer)
-[15:48:00] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
-[15:48:00] [Server thread/INFO]: [ClearLag] Modules have been loaded!
-[15:48:00] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
-[15:48:00] [Thread-8/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.19]...
-[15:48:01] [Server thread/INFO]: Running delayed init tasks
-[15:48:01] [Server thread/INFO]: Done (8.251s)! For help, type "help"
-[15:48:01] [Server thread/INFO]: Timings Reset
-[15:48:01] [Craft Scheduler Thread - 2 - Essentials/INFO]: [Essentials] Fetching version information...
-[15:48:02] [Thread-8/INFO]: [ClearLag] No updates found!
-[15:48:31] [Server thread/INFO]: Stopping server
-[15:48:31] [Server thread/INFO]: [ClearLag] Disabling ClearLag v3.2.2
-[15:48:31] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
-[15:48:31] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v21.3
-[15:48:31] [Server thread/INFO]: [CoreProtect] Finishing up data logging. Please wait...
-[15:48:32] [Server thread/INFO]: [CoreProtect] Success! Disabled CoreProtect v21.3
-[15:48:32] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.19.7
-[15:48:32] [Server thread/INFO]: [SetHomes] Disabling SetHomes v1.3.0
-[15:48:32] [Server thread/INFO]: [SimpleTpa] Disabling SimpleTpa v6.2
-[15:48:32] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
-[15:48:32] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been disabled on version 6.2
-[15:48:32] [Server thread/INFO]: [Essentials] Disabling Essentials v2.19.7
-[15:48:32] [Server thread/INFO]: Saving players
-[15:48:32] [Server thread/INFO]: Saving worlds
-[15:48:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[leave]'/minecraft:overworld
-[15:48:32] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'leave'
-[15:48:32] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'leave'
-[15:48:32] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'leave'
-[15:48:32] [Server thread/INFO]: [ChunkHolderManager] Saved 361 block chunks, 361 entity chunks, 0 poi chunks in world 'leave' in 0.56s
-[15:48:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (leave): All chunks are saved
-[15:48:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[leave_nether]'/minecraft:the_nether
-[15:48:32] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'leave_nether'
-[15:48:32] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'leave_nether'
-[15:48:32] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'leave_nether'
-[15:48:33] [Server thread/INFO]: [ChunkHolderManager] Saved 361 block chunks, 361 entity chunks, 0 poi chunks in world 'leave_nether' in 0.40s
-[15:48:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[15:48:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[leave_the_end]'/minecraft:the_end
-[15:48:33] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'leave_the_end'
-[15:48:33] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'leave_the_end'
-[15:48:33] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'leave_the_end'
-[15:48:33] [Server thread/INFO]: [ChunkHolderManager] Saved 361 block chunks, 361 entity chunks, 0 poi chunks in world 'leave_the_end' in 0.10s
-[15:48:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[15:48:33] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[15:48:33] [Server thread/INFO]: Flushing Chunk IO
-[15:48:33] [Server thread/INFO]: Closing Thread Pool
-[15:48:33] [Server thread/INFO]: Closing Server
+[22:18:06] [ServerMain/INFO]: Building unoptimized datafixer
+[22:18:07] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[22:18:09] [ServerMain/INFO]: Loaded 7 recipes
+[22:18:09] [Server thread/INFO]: Starting minecraft server version 1.19.3
+[22:18:09] [Server thread/INFO]: Loading properties
+[22:18:09] [Server thread/INFO]: This server is running Paper version git-Paper-445 (MC: 1.19.3) (Implementing API version 1.19.3-R0.1-SNAPSHOT) (Git: 4d7269e)
+[22:18:10] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[22:18:10] [Server thread/INFO]: Using 4 threads for Netty based IO
+[22:18:10] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 2 worker threads, and gen parallelism of 2 threads
+[22:18:10] [Server thread/INFO]: Default game type: SURVIVAL
+[22:18:10] [Server thread/INFO]: Generating keypair
+[22:18:10] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:25565
+[22:18:10] [Server thread/INFO]: Using default channel type
+[22:18:10] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[22:18:10] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[22:18:11] [Server thread/WARN]: [org.bukkit.craftbukkit.v1_19_R2.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[22:18:14] [Server thread/WARN]: Legacy plugin SimpleTpa v6.2 does not specify an api-version.
+[22:18:14] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.19.7
+[22:18:14] [Server thread/INFO]: [SimpleTpa] Loading server plugin SimpleTpa v6.2
+[22:18:14] [Server thread/INFO]: [SetHomes] Loading server plugin SetHomes v1.3.0
+[22:18:14] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.19.7
+[22:18:14] [Server thread/INFO]: [CoreProtect] Loading server plugin CoreProtect v21.3
+[22:18:14] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[22:18:14] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[22:18:14] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[22:18:14] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[22:18:14] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[22:18:14] [Server thread/INFO]: Preparing level "leave"
+[22:18:15] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[22:18:15] [Server thread/INFO]: Time elapsed: 143 ms
+[22:18:15] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[22:18:15] [Server thread/INFO]: Time elapsed: 33 ms
+[22:18:15] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[22:18:15] [Server thread/INFO]: Time elapsed: 21 ms
+[22:18:15] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.7
+[22:18:15] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[22:18:15] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[22:18:15] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[22:18:16] [Server thread/INFO]: [Essentials] Loaded 38132 items from items.json.
+[22:18:16] [Server thread/INFO]: [Essentials] Using locale en_US
+[22:18:16] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[22:18:16] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[22:18:16] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[22:18:16] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.2*
+[22:18:16] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
+[22:18:16] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been enabled on version 6.2
+[22:18:16] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[22:18:16] [Server thread/INFO]: [SetHomes] Enabling SetHomes v1.3.0
+[22:18:16] [Server thread/INFO]: [SetHomes] Luck perms was not found! Reverting to vault...
+[22:18:16] [Server thread/INFO]: [SetHomes] Vault was not found.
+[22:18:16] [Server thread/WARN]: [SetHomes] Could not connect to a permissions plugin! Config setting "max-homes" will be ignored!
+[22:18:16] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.19.7
+[22:18:16] [Server thread/INFO]: [EssentialsChat] Secure signed chat and previews are enabled.
+[22:18:16] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[22:18:16] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v21.3
+[22:18:16] [Server thread/INFO]: [CoreProtect] CoreProtect has been successfully enabled! 
+[22:18:16] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
+[22:18:16] [Server thread/INFO]: --------------------
+[22:18:16] [Server thread/INFO]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
+[22:18:16] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
+[22:18:16] [Server thread/INFO]: --------------------
+[22:18:16] [Server thread/INFO]: Running delayed init tasks
+[22:18:16] [Server thread/INFO]: Done (6.946s)! For help, type "help"
+[22:18:16] [Server thread/INFO]: Timings Reset
+[22:18:16] [Craft Scheduler Thread - 3 - Essentials/INFO]: [Essentials] Fetching version information...
+[22:18:23] [User Authenticator #0/INFO]: UUID of player xxxTASHINxxx is fc1c7f89-4bfb-39c2-89a0-d1732614703e
+[22:18:23] [Server thread/INFO]: xxxTASHINxxx joined the game
+[22:18:23] [Server thread/INFO]: xxxTASHINxxx[/[0:0:0:0:0:0:0:1]:53756] logged in with entity id 172 at ([leave]373.5, 66.0, -73.5)
+[22:18:24] [Profile Lookup Executor #1/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@554f7cef[id=c7797be3-898d-3cca-8d09-70e0d7372e6f,name=AmiAkibNa,properties={},legacy=false]
+com.mojang.authlib.exceptions.AuthenticationUnavailableException: Cannot contact authentication server
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:134) ~[authlib-3.16.29.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:106) ~[authlib-3.16.29.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:197) ~[authlib-3.16.29.jar:?]
+	at com.destroystokyo.paper.profile.PaperMinecraftSessionService.fillGameProfile(PaperMinecraftSessionService.java:38) ~[paper-1.19.3.jar:git-Paper-445]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:175) ~[authlib-3.16.29.jar:?]
+	at com.destroystokyo.paper.profile.PaperMinecraftSessionService.fillProfileProperties(PaperMinecraftSessionService.java:31) ~[paper-1.19.3.jar:git-Paper-445]
+	at net.minecraft.world.level.block.entity.SkullBlockEntity.lambda$updateGameprofile$2(SkullBlockEntity.java:148) ~[?:?]
+	at net.minecraft.Util.ifElse(Util.java:461) ~[?:?]
+	at net.minecraft.world.level.block.entity.SkullBlockEntity.lambda$updateGameprofile$5(SkullBlockEntity.java:144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1589) ~[?:?]
+Caused by: javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.ssl.Alert.createSSLException(Alert.java:130) ~[?:?]
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:371) ~[?:?]
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:314) ~[?:?]
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:309) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(CertificateMessage.java:654) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.onCertificate(CertificateMessage.java:473) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.consume(CertificateMessage.java:369) ~[?:?]
+	at sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:396) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:480) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:458) ~[?:?]
+	at sun.security.ssl.TransportContext.dispatch(TransportContext.java:201) ~[?:?]
+	at sun.security.ssl.SSLTransport.decode(SSLTransport.java:172) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1510) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1425) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426) ~[?:?]
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:578) ~[?:?]
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:187) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1661) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1585) ~[?:?]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:224) ~[?:?]
+	at com.mojang.authlib.HttpAuthenticationService.performGetRequest(HttpAuthenticationService.java:140) ~[authlib-3.16.29.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:111) ~[authlib-3.16.29.jar:?]
+	... 11 more
+Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:388) ~[?:?]
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:271) ~[?:?]
+	at sun.security.validator.Validator.validate(Validator.java:256) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:231) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:132) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(CertificateMessage.java:638) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.onCertificate(CertificateMessage.java:473) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.consume(CertificateMessage.java:369) ~[?:?]
+	at sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:396) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:480) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:458) ~[?:?]
+	at sun.security.ssl.TransportContext.dispatch(TransportContext.java:201) ~[?:?]
+	at sun.security.ssl.SSLTransport.decode(SSLTransport.java:172) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1510) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1425) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426) ~[?:?]
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:578) ~[?:?]
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:187) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1661) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1585) ~[?:?]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:224) ~[?:?]
+	at com.mojang.authlib.HttpAuthenticationService.performGetRequest(HttpAuthenticationService.java:140) ~[authlib-3.16.29.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:111) ~[authlib-3.16.29.jar:?]
+	... 11 more
+Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.provider.certpath.SunCertPathBuilder.build(SunCertPathBuilder.java:141) ~[?:?]
+	at sun.security.provider.certpath.SunCertPathBuilder.engineBuild(SunCertPathBuilder.java:126) ~[?:?]
+	at java.security.cert.CertPathBuilder.build(CertPathBuilder.java:297) ~[?:?]
+	at sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:383) ~[?:?]
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:271) ~[?:?]
+	at sun.security.validator.Validator.validate(Validator.java:256) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:231) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:132) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(CertificateMessage.java:638) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.onCertificate(CertificateMessage.java:473) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.consume(CertificateMessage.java:369) ~[?:?]
+	at sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:396) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:480) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:458) ~[?:?]
+	at sun.security.ssl.TransportContext.dispatch(TransportContext.java:201) ~[?:?]
+	at sun.security.ssl.SSLTransport.decode(SSLTransport.java:172) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1510) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1425) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426) ~[?:?]
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:578) ~[?:?]
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:187) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1661) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1585) ~[?:?]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:224) ~[?:?]
+	at com.mojang.authlib.HttpAuthenticationService.performGetRequest(HttpAuthenticationService.java:140) ~[authlib-3.16.29.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:111) ~[authlib-3.16.29.jar:?]
+	... 11 more
+[22:18:31] [Async Chat Thread - #1/INFO]: [Not Secure] <xxxTASHINxxx> .
+[22:18:32] [User Authenticator #0/INFO]: UUID of player AmiAkibNa is c7797be3-898d-3cca-8d09-70e0d7372e6f
+[22:18:32] [Server thread/INFO]: AmiAkibNa joined the game
+[22:18:32] [Server thread/INFO]: AmiAkibNa[/[0:0:0:0:0:0:0:1]:53761] logged in with entity id 457 at ([leave]373.1433970959015, 66.0, -69.01619684962746)
+[22:18:34] [Async Chat Thread - #0/INFO]: [Not Secure] <xxxTASHINxxx> W
+[22:18:55] [Async Chat Thread - #1/INFO]: [Not Secure] <AmiAkibNa> ?
+[22:18:57] [Server thread/INFO]: AmiAkibNa lost connection: Disconnected
+[22:18:57] [Server thread/INFO]: AmiAkibNa left the game
+[22:19:05] [User Authenticator #0/INFO]: UUID of player AmiAkibNa is c7797be3-898d-3cca-8d09-70e0d7372e6f
+[22:19:05] [Server thread/INFO]: AmiAkibNa joined the game
+[22:19:05] [Server thread/INFO]: AmiAkibNa[/127.0.0.1:53773] logged in with entity id 496 at ([leave]373.1433970959015, 66.0, -69.01619684962746)
+[22:19:12] [Async Chat Thread - #0/INFO]: [Not Secure] <xxxTASHINxxx> thk hoiche
+[22:19:17] [Server thread/INFO]: xxxTASHINxxx issued server command: /sethome home
+[22:19:26] [Async Chat Thread - #1/INFO]: [Not Secure] <xxxTASHINxxx> sethome er permission de
+[22:19:30] [Async Chat Thread - #0/INFO]: [Not Secure] <AmiAkibNa> ngrok dia portforward korsi
+[22:19:34] [Async Chat Thread - #1/INFO]: [Not Secure] <AmiAkibNa> pping beshi thakbo
+[22:20:31] [Async Chat Thread - #0/INFO]: [Not Secure] <xxxTASHINxxx> suger cane farm boro koris
+[22:21:30] [Server thread/INFO]: xxxTASHINxxx has made the advancement [The Parrots and the Bats]
+[22:21:51] [Async Chat Thread - #3/INFO]: [Not Secure] <AmiAkibNa> nether e jabi ?
+[22:21:59] [Async Chat Thread - #2/INFO]: [Not Secure] <xxxTASHINxxx> nah bhai, my ping
+[22:22:09] [Profile Lookup Executor #0/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@425b6f11[id=c7797be3-898d-3cca-8d09-70e0d7372e6f,name=AmiAkibNa,properties={},legacy=false]
+com.mojang.authlib.exceptions.AuthenticationUnavailableException: Cannot contact authentication server
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:134) ~[authlib-3.16.29.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:106) ~[authlib-3.16.29.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:197) ~[authlib-3.16.29.jar:?]
+	at com.destroystokyo.paper.profile.PaperMinecraftSessionService.fillGameProfile(PaperMinecraftSessionService.java:38) ~[paper-1.19.3.jar:git-Paper-445]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:175) ~[authlib-3.16.29.jar:?]
+	at com.destroystokyo.paper.profile.PaperMinecraftSessionService.fillProfileProperties(PaperMinecraftSessionService.java:31) ~[paper-1.19.3.jar:git-Paper-445]
+	at net.minecraft.world.level.block.entity.SkullBlockEntity.lambda$updateGameprofile$2(SkullBlockEntity.java:148) ~[?:?]
+	at net.minecraft.Util.ifElse(Util.java:461) ~[?:?]
+	at net.minecraft.world.level.block.entity.SkullBlockEntity.lambda$updateGameprofile$5(SkullBlockEntity.java:144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1589) ~[?:?]
+Caused by: javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.ssl.Alert.createSSLException(Alert.java:130) ~[?:?]
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:371) ~[?:?]
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:314) ~[?:?]
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:309) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(CertificateMessage.java:654) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.onCertificate(CertificateMessage.java:473) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.consume(CertificateMessage.java:369) ~[?:?]
+	at sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:396) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:480) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:458) ~[?:?]
+	at sun.security.ssl.TransportContext.dispatch(TransportContext.java:201) ~[?:?]
+	at sun.security.ssl.SSLTransport.decode(SSLTransport.java:172) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1510) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1425) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426) ~[?:?]
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:578) ~[?:?]
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:187) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1661) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1585) ~[?:?]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:224) ~[?:?]
+	at com.mojang.authlib.HttpAuthenticationService.performGetRequest(HttpAuthenticationService.java:140) ~[authlib-3.16.29.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:111) ~[authlib-3.16.29.jar:?]
+	... 11 more
+Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:388) ~[?:?]
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:271) ~[?:?]
+	at sun.security.validator.Validator.validate(Validator.java:256) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:231) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:132) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(CertificateMessage.java:638) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.onCertificate(CertificateMessage.java:473) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.consume(CertificateMessage.java:369) ~[?:?]
+	at sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:396) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:480) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:458) ~[?:?]
+	at sun.security.ssl.TransportContext.dispatch(TransportContext.java:201) ~[?:?]
+	at sun.security.ssl.SSLTransport.decode(SSLTransport.java:172) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1510) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1425) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426) ~[?:?]
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:578) ~[?:?]
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:187) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1661) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1585) ~[?:?]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:224) ~[?:?]
+	at com.mojang.authlib.HttpAuthenticationService.performGetRequest(HttpAuthenticationService.java:140) ~[authlib-3.16.29.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:111) ~[authlib-3.16.29.jar:?]
+	... 11 more
+Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.provider.certpath.SunCertPathBuilder.build(SunCertPathBuilder.java:141) ~[?:?]
+	at sun.security.provider.certpath.SunCertPathBuilder.engineBuild(SunCertPathBuilder.java:126) ~[?:?]
+	at java.security.cert.CertPathBuilder.build(CertPathBuilder.java:297) ~[?:?]
+	at sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:383) ~[?:?]
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:271) ~[?:?]
+	at sun.security.validator.Validator.validate(Validator.java:256) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:231) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:132) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(CertificateMessage.java:638) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.onCertificate(CertificateMessage.java:473) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.consume(CertificateMessage.java:369) ~[?:?]
+	at sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:396) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:480) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:458) ~[?:?]
+	at sun.security.ssl.TransportContext.dispatch(TransportContext.java:201) ~[?:?]
+	at sun.security.ssl.SSLTransport.decode(SSLTransport.java:172) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1510) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1425) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426) ~[?:?]
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:578) ~[?:?]
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:187) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1661) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1585) ~[?:?]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:224) ~[?:?]
+	at com.mojang.authlib.HttpAuthenticationService.performGetRequest(HttpAuthenticationService.java:140) ~[authlib-3.16.29.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:111) ~[authlib-3.16.29.jar:?]
+	... 11 more
+[22:22:10] [Profile Lookup Executor #1/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@425b6f11[id=c7797be3-898d-3cca-8d09-70e0d7372e6f,name=AmiAkibNa,properties={},legacy=false]
+com.mojang.authlib.exceptions.AuthenticationUnavailableException: Cannot contact authentication server
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:134) ~[authlib-3.16.29.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:106) ~[authlib-3.16.29.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:197) ~[authlib-3.16.29.jar:?]
+	at com.destroystokyo.paper.profile.PaperMinecraftSessionService.fillGameProfile(PaperMinecraftSessionService.java:38) ~[paper-1.19.3.jar:git-Paper-445]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:175) ~[authlib-3.16.29.jar:?]
+	at com.destroystokyo.paper.profile.PaperMinecraftSessionService.fillProfileProperties(PaperMinecraftSessionService.java:31) ~[paper-1.19.3.jar:git-Paper-445]
+	at net.minecraft.world.level.block.entity.SkullBlockEntity.lambda$updateGameprofile$2(SkullBlockEntity.java:148) ~[?:?]
+	at net.minecraft.Util.ifElse(Util.java:461) ~[?:?]
+	at net.minecraft.world.level.block.entity.SkullBlockEntity.lambda$updateGameprofile$5(SkullBlockEntity.java:144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1589) ~[?:?]
+Caused by: javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.ssl.Alert.createSSLException(Alert.java:130) ~[?:?]
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:371) ~[?:?]
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:314) ~[?:?]
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:309) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(CertificateMessage.java:654) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.onCertificate(CertificateMessage.java:473) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.consume(CertificateMessage.java:369) ~[?:?]
+	at sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:396) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:480) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:458) ~[?:?]
+	at sun.security.ssl.TransportContext.dispatch(TransportContext.java:201) ~[?:?]
+	at sun.security.ssl.SSLTransport.decode(SSLTransport.java:172) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1510) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1425) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426) ~[?:?]
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:578) ~[?:?]
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:187) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1661) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1585) ~[?:?]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:224) ~[?:?]
+	at com.mojang.authlib.HttpAuthenticationService.performGetRequest(HttpAuthenticationService.java:140) ~[authlib-3.16.29.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:111) ~[authlib-3.16.29.jar:?]
+	... 11 more
+Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:388) ~[?:?]
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:271) ~[?:?]
+	at sun.security.validator.Validator.validate(Validator.java:256) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:231) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:132) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(CertificateMessage.java:638) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.onCertificate(CertificateMessage.java:473) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.consume(CertificateMessage.java:369) ~[?:?]
+	at sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:396) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:480) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:458) ~[?:?]
+	at sun.security.ssl.TransportContext.dispatch(TransportContext.java:201) ~[?:?]
+	at sun.security.ssl.SSLTransport.decode(SSLTransport.java:172) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1510) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1425) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426) ~[?:?]
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:578) ~[?:?]
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:187) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1661) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1585) ~[?:?]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:224) ~[?:?]
+	at com.mojang.authlib.HttpAuthenticationService.performGetRequest(HttpAuthenticationService.java:140) ~[authlib-3.16.29.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:111) ~[authlib-3.16.29.jar:?]
+	... 11 more
+Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.provider.certpath.SunCertPathBuilder.build(SunCertPathBuilder.java:141) ~[?:?]
+	at sun.security.provider.certpath.SunCertPathBuilder.engineBuild(SunCertPathBuilder.java:126) ~[?:?]
+	at java.security.cert.CertPathBuilder.build(CertPathBuilder.java:297) ~[?:?]
+	at sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:383) ~[?:?]
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:271) ~[?:?]
+	at sun.security.validator.Validator.validate(Validator.java:256) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:231) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:132) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(CertificateMessage.java:638) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.onCertificate(CertificateMessage.java:473) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.consume(CertificateMessage.java:369) ~[?:?]
+	at sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:396) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:480) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:458) ~[?:?]
+	at sun.security.ssl.TransportContext.dispatch(TransportContext.java:201) ~[?:?]
+	at sun.security.ssl.SSLTransport.decode(SSLTransport.java:172) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1510) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1425) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426) ~[?:?]
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:578) ~[?:?]
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:187) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1661) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1585) ~[?:?]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:224) ~[?:?]
+	at com.mojang.authlib.HttpAuthenticationService.performGetRequest(HttpAuthenticationService.java:140) ~[authlib-3.16.29.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:111) ~[authlib-3.16.29.jar:?]
+	... 11 more
+[22:22:11] [Profile Lookup Executor #1/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@425b6f11[id=c7797be3-898d-3cca-8d09-70e0d7372e6f,name=AmiAkibNa,properties={},legacy=false]
+com.mojang.authlib.exceptions.AuthenticationUnavailableException: Cannot contact authentication server
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:134) ~[authlib-3.16.29.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:106) ~[authlib-3.16.29.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:197) ~[authlib-3.16.29.jar:?]
+	at com.destroystokyo.paper.profile.PaperMinecraftSessionService.fillGameProfile(PaperMinecraftSessionService.java:38) ~[paper-1.19.3.jar:git-Paper-445]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:175) ~[authlib-3.16.29.jar:?]
+	at com.destroystokyo.paper.profile.PaperMinecraftSessionService.fillProfileProperties(PaperMinecraftSessionService.java:31) ~[paper-1.19.3.jar:git-Paper-445]
+	at net.minecraft.world.level.block.entity.SkullBlockEntity.lambda$updateGameprofile$2(SkullBlockEntity.java:148) ~[?:?]
+	at net.minecraft.Util.ifElse(Util.java:461) ~[?:?]
+	at net.minecraft.world.level.block.entity.SkullBlockEntity.lambda$updateGameprofile$5(SkullBlockEntity.java:144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1589) ~[?:?]
+Caused by: javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.ssl.Alert.createSSLException(Alert.java:130) ~[?:?]
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:371) ~[?:?]
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:314) ~[?:?]
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:309) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(CertificateMessage.java:654) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.onCertificate(CertificateMessage.java:473) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.consume(CertificateMessage.java:369) ~[?:?]
+	at sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:396) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:480) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:458) ~[?:?]
+	at sun.security.ssl.TransportContext.dispatch(TransportContext.java:201) ~[?:?]
+	at sun.security.ssl.SSLTransport.decode(SSLTransport.java:172) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1510) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1425) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426) ~[?:?]
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:578) ~[?:?]
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:187) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1661) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1585) ~[?:?]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:224) ~[?:?]
+	at com.mojang.authlib.HttpAuthenticationService.performGetRequest(HttpAuthenticationService.java:140) ~[authlib-3.16.29.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:111) ~[authlib-3.16.29.jar:?]
+	... 11 more
+Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:388) ~[?:?]
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:271) ~[?:?]
+	at sun.security.validator.Validator.validate(Validator.java:256) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:231) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:132) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(CertificateMessage.java:638) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.onCertificate(CertificateMessage.java:473) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.consume(CertificateMessage.java:369) ~[?:?]
+	at sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:396) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:480) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:458) ~[?:?]
+	at sun.security.ssl.TransportContext.dispatch(TransportContext.java:201) ~[?:?]
+	at sun.security.ssl.SSLTransport.decode(SSLTransport.java:172) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1510) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1425) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426) ~[?:?]
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:578) ~[?:?]
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:187) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1661) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1585) ~[?:?]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:224) ~[?:?]
+	at com.mojang.authlib.HttpAuthenticationService.performGetRequest(HttpAuthenticationService.java:140) ~[authlib-3.16.29.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:111) ~[authlib-3.16.29.jar:?]
+	... 11 more
+Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.provider.certpath.SunCertPathBuilder.build(SunCertPathBuilder.java:141) ~[?:?]
+	at sun.security.provider.certpath.SunCertPathBuilder.engineBuild(SunCertPathBuilder.java:126) ~[?:?]
+	at java.security.cert.CertPathBuilder.build(CertPathBuilder.java:297) ~[?:?]
+	at sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:383) ~[?:?]
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:271) ~[?:?]
+	at sun.security.validator.Validator.validate(Validator.java:256) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:231) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:132) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(CertificateMessage.java:638) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.onCertificate(CertificateMessage.java:473) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.consume(CertificateMessage.java:369) ~[?:?]
+	at sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:396) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:480) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:458) ~[?:?]
+	at sun.security.ssl.TransportContext.dispatch(TransportContext.java:201) ~[?:?]
+	at sun.security.ssl.SSLTransport.decode(SSLTransport.java:172) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1510) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1425) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426) ~[?:?]
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:578) ~[?:?]
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:187) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1661) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1585) ~[?:?]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:224) ~[?:?]
+	at com.mojang.authlib.HttpAuthenticationService.performGetRequest(HttpAuthenticationService.java:140) ~[authlib-3.16.29.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:111) ~[authlib-3.16.29.jar:?]
+	... 11 more
+[22:22:11] [Profile Lookup Executor #0/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@425b6f11[id=c7797be3-898d-3cca-8d09-70e0d7372e6f,name=AmiAkibNa,properties={},legacy=false]
+com.mojang.authlib.exceptions.AuthenticationUnavailableException: Cannot contact authentication server
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:134) ~[authlib-3.16.29.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:106) ~[authlib-3.16.29.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:197) ~[authlib-3.16.29.jar:?]
+	at com.destroystokyo.paper.profile.PaperMinecraftSessionService.fillGameProfile(PaperMinecraftSessionService.java:38) ~[paper-1.19.3.jar:git-Paper-445]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:175) ~[authlib-3.16.29.jar:?]
+	at com.destroystokyo.paper.profile.PaperMinecraftSessionService.fillProfileProperties(PaperMinecraftSessionService.java:31) ~[paper-1.19.3.jar:git-Paper-445]
+	at net.minecraft.world.level.block.entity.SkullBlockEntity.lambda$updateGameprofile$2(SkullBlockEntity.java:148) ~[?:?]
+	at net.minecraft.Util.ifElse(Util.java:461) ~[?:?]
+	at net.minecraft.world.level.block.entity.SkullBlockEntity.lambda$updateGameprofile$5(SkullBlockEntity.java:144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1589) ~[?:?]
+Caused by: javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.ssl.Alert.createSSLException(Alert.java:130) ~[?:?]
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:371) ~[?:?]
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:314) ~[?:?]
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:309) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(CertificateMessage.java:654) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.onCertificate(CertificateMessage.java:473) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.consume(CertificateMessage.java:369) ~[?:?]
+	at sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:396) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:480) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:458) ~[?:?]
+	at sun.security.ssl.TransportContext.dispatch(TransportContext.java:201) ~[?:?]
+	at sun.security.ssl.SSLTransport.decode(SSLTransport.java:172) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1510) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1425) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426) ~[?:?]
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:578) ~[?:?]
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:187) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1661) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1585) ~[?:?]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:224) ~[?:?]
+	at com.mojang.authlib.HttpAuthenticationService.performGetRequest(HttpAuthenticationService.java:140) ~[authlib-3.16.29.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:111) ~[authlib-3.16.29.jar:?]
+	... 11 more
+Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:388) ~[?:?]
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:271) ~[?:?]
+	at sun.security.validator.Validator.validate(Validator.java:256) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:231) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:132) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(CertificateMessage.java:638) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.onCertificate(CertificateMessage.java:473) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.consume(CertificateMessage.java:369) ~[?:?]
+	at sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:396) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:480) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:458) ~[?:?]
+	at sun.security.ssl.TransportContext.dispatch(TransportContext.java:201) ~[?:?]
+	at sun.security.ssl.SSLTransport.decode(SSLTransport.java:172) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1510) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1425) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426) ~[?:?]
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:578) ~[?:?]
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:187) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1661) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1585) ~[?:?]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:224) ~[?:?]
+	at com.mojang.authlib.HttpAuthenticationService.performGetRequest(HttpAuthenticationService.java:140) ~[authlib-3.16.29.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:111) ~[authlib-3.16.29.jar:?]
+	... 11 more
+Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.provider.certpath.SunCertPathBuilder.build(SunCertPathBuilder.java:141) ~[?:?]
+	at sun.security.provider.certpath.SunCertPathBuilder.engineBuild(SunCertPathBuilder.java:126) ~[?:?]
+	at java.security.cert.CertPathBuilder.build(CertPathBuilder.java:297) ~[?:?]
+	at sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:383) ~[?:?]
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:271) ~[?:?]
+	at sun.security.validator.Validator.validate(Validator.java:256) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:231) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:132) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(CertificateMessage.java:638) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.onCertificate(CertificateMessage.java:473) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.consume(CertificateMessage.java:369) ~[?:?]
+	at sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:396) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:480) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:458) ~[?:?]
+	at sun.security.ssl.TransportContext.dispatch(TransportContext.java:201) ~[?:?]
+	at sun.security.ssl.SSLTransport.decode(SSLTransport.java:172) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1510) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1425) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426) ~[?:?]
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:578) ~[?:?]
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:187) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1661) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1585) ~[?:?]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:224) ~[?:?]
+	at com.mojang.authlib.HttpAuthenticationService.performGetRequest(HttpAuthenticationService.java:140) ~[authlib-3.16.29.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:111) ~[authlib-3.16.29.jar:?]
+	... 11 more
+[22:22:13] [Profile Lookup Executor #0/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@425b6f11[id=c7797be3-898d-3cca-8d09-70e0d7372e6f,name=AmiAkibNa,properties={},legacy=false]
+com.mojang.authlib.exceptions.AuthenticationUnavailableException: Cannot contact authentication server
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:134) ~[authlib-3.16.29.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:106) ~[authlib-3.16.29.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:197) ~[authlib-3.16.29.jar:?]
+	at com.destroystokyo.paper.profile.PaperMinecraftSessionService.fillGameProfile(PaperMinecraftSessionService.java:38) ~[paper-1.19.3.jar:git-Paper-445]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:175) ~[authlib-3.16.29.jar:?]
+	at com.destroystokyo.paper.profile.PaperMinecraftSessionService.fillProfileProperties(PaperMinecraftSessionService.java:31) ~[paper-1.19.3.jar:git-Paper-445]
+	at net.minecraft.world.level.block.entity.SkullBlockEntity.lambda$updateGameprofile$2(SkullBlockEntity.java:148) ~[?:?]
+	at net.minecraft.Util.ifElse(Util.java:461) ~[?:?]
+	at net.minecraft.world.level.block.entity.SkullBlockEntity.lambda$updateGameprofile$5(SkullBlockEntity.java:144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1589) ~[?:?]
+Caused by: javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.ssl.Alert.createSSLException(Alert.java:130) ~[?:?]
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:371) ~[?:?]
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:314) ~[?:?]
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:309) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(CertificateMessage.java:654) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.onCertificate(CertificateMessage.java:473) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.consume(CertificateMessage.java:369) ~[?:?]
+	at sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:396) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:480) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:458) ~[?:?]
+	at sun.security.ssl.TransportContext.dispatch(TransportContext.java:201) ~[?:?]
+	at sun.security.ssl.SSLTransport.decode(SSLTransport.java:172) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1510) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1425) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426) ~[?:?]
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:578) ~[?:?]
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:187) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1661) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1585) ~[?:?]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:224) ~[?:?]
+	at com.mojang.authlib.HttpAuthenticationService.performGetRequest(HttpAuthenticationService.java:140) ~[authlib-3.16.29.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:111) ~[authlib-3.16.29.jar:?]
+	... 11 more
+Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:388) ~[?:?]
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:271) ~[?:?]
+	at sun.security.validator.Validator.validate(Validator.java:256) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:231) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:132) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(CertificateMessage.java:638) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.onCertificate(CertificateMessage.java:473) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.consume(CertificateMessage.java:369) ~[?:?]
+	at sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:396) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:480) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:458) ~[?:?]
+	at sun.security.ssl.TransportContext.dispatch(TransportContext.java:201) ~[?:?]
+	at sun.security.ssl.SSLTransport.decode(SSLTransport.java:172) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1510) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1425) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426) ~[?:?]
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:578) ~[?:?]
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:187) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1661) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1585) ~[?:?]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:224) ~[?:?]
+	at com.mojang.authlib.HttpAuthenticationService.performGetRequest(HttpAuthenticationService.java:140) ~[authlib-3.16.29.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:111) ~[authlib-3.16.29.jar:?]
+	... 11 more
+Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.provider.certpath.SunCertPathBuilder.build(SunCertPathBuilder.java:141) ~[?:?]
+	at sun.security.provider.certpath.SunCertPathBuilder.engineBuild(SunCertPathBuilder.java:126) ~[?:?]
+	at java.security.cert.CertPathBuilder.build(CertPathBuilder.java:297) ~[?:?]
+	at sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:383) ~[?:?]
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:271) ~[?:?]
+	at sun.security.validator.Validator.validate(Validator.java:256) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:231) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:132) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(CertificateMessage.java:638) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.onCertificate(CertificateMessage.java:473) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.consume(CertificateMessage.java:369) ~[?:?]
+	at sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:396) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:480) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:458) ~[?:?]
+	at sun.security.ssl.TransportContext.dispatch(TransportContext.java:201) ~[?:?]
+	at sun.security.ssl.SSLTransport.decode(SSLTransport.java:172) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1510) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1425) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426) ~[?:?]
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:578) ~[?:?]
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:187) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1661) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1585) ~[?:?]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:224) ~[?:?]
+	at com.mojang.authlib.HttpAuthenticationService.performGetRequest(HttpAuthenticationService.java:140) ~[authlib-3.16.29.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:111) ~[authlib-3.16.29.jar:?]
+	... 11 more
+[22:22:14] [Profile Lookup Executor #1/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@425b6f11[id=c7797be3-898d-3cca-8d09-70e0d7372e6f,name=AmiAkibNa,properties={},legacy=false]
+com.mojang.authlib.exceptions.AuthenticationUnavailableException: Cannot contact authentication server
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:134) ~[authlib-3.16.29.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:106) ~[authlib-3.16.29.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:197) ~[authlib-3.16.29.jar:?]
+	at com.destroystokyo.paper.profile.PaperMinecraftSessionService.fillGameProfile(PaperMinecraftSessionService.java:38) ~[paper-1.19.3.jar:git-Paper-445]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:175) ~[authlib-3.16.29.jar:?]
+	at com.destroystokyo.paper.profile.PaperMinecraftSessionService.fillProfileProperties(PaperMinecraftSessionService.java:31) ~[paper-1.19.3.jar:git-Paper-445]
+	at net.minecraft.world.level.block.entity.SkullBlockEntity.lambda$updateGameprofile$2(SkullBlockEntity.java:148) ~[?:?]
+	at net.minecraft.Util.ifElse(Util.java:461) ~[?:?]
+	at net.minecraft.world.level.block.entity.SkullBlockEntity.lambda$updateGameprofile$5(SkullBlockEntity.java:144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1589) ~[?:?]
+Caused by: javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.ssl.Alert.createSSLException(Alert.java:130) ~[?:?]
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:371) ~[?:?]
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:314) ~[?:?]
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:309) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(CertificateMessage.java:654) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.onCertificate(CertificateMessage.java:473) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.consume(CertificateMessage.java:369) ~[?:?]
+	at sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:396) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:480) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:458) ~[?:?]
+	at sun.security.ssl.TransportContext.dispatch(TransportContext.java:201) ~[?:?]
+	at sun.security.ssl.SSLTransport.decode(SSLTransport.java:172) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1510) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1425) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426) ~[?:?]
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:578) ~[?:?]
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:187) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1661) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1585) ~[?:?]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:224) ~[?:?]
+	at com.mojang.authlib.HttpAuthenticationService.performGetRequest(HttpAuthenticationService.java:140) ~[authlib-3.16.29.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:111) ~[authlib-3.16.29.jar:?]
+	... 11 more
+Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:388) ~[?:?]
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:271) ~[?:?]
+	at sun.security.validator.Validator.validate(Validator.java:256) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:231) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:132) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(CertificateMessage.java:638) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.onCertificate(CertificateMessage.java:473) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.consume(CertificateMessage.java:369) ~[?:?]
+	at sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:396) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:480) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:458) ~[?:?]
+	at sun.security.ssl.TransportContext.dispatch(TransportContext.java:201) ~[?:?]
+	at sun.security.ssl.SSLTransport.decode(SSLTransport.java:172) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1510) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1425) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426) ~[?:?]
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:578) ~[?:?]
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:187) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1661) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1585) ~[?:?]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:224) ~[?:?]
+	at com.mojang.authlib.HttpAuthenticationService.performGetRequest(HttpAuthenticationService.java:140) ~[authlib-3.16.29.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:111) ~[authlib-3.16.29.jar:?]
+	... 11 more
+Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.provider.certpath.SunCertPathBuilder.build(SunCertPathBuilder.java:141) ~[?:?]
+	at sun.security.provider.certpath.SunCertPathBuilder.engineBuild(SunCertPathBuilder.java:126) ~[?:?]
+	at java.security.cert.CertPathBuilder.build(CertPathBuilder.java:297) ~[?:?]
+	at sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:383) ~[?:?]
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:271) ~[?:?]
+	at sun.security.validator.Validator.validate(Validator.java:256) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:231) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:132) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(CertificateMessage.java:638) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.onCertificate(CertificateMessage.java:473) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.consume(CertificateMessage.java:369) ~[?:?]
+	at sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:396) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:480) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:458) ~[?:?]
+	at sun.security.ssl.TransportContext.dispatch(TransportContext.java:201) ~[?:?]
+	at sun.security.ssl.SSLTransport.decode(SSLTransport.java:172) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1510) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1425) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426) ~[?:?]
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:578) ~[?:?]
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:187) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1661) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1585) ~[?:?]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:224) ~[?:?]
+	at com.mojang.authlib.HttpAuthenticationService.performGetRequest(HttpAuthenticationService.java:140) ~[authlib-3.16.29.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:111) ~[authlib-3.16.29.jar:?]
+	... 11 more
+[22:22:14] [Profile Lookup Executor #1/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@425b6f11[id=c7797be3-898d-3cca-8d09-70e0d7372e6f,name=AmiAkibNa,properties={},legacy=false]
+com.mojang.authlib.exceptions.AuthenticationUnavailableException: Cannot contact authentication server
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:134) ~[authlib-3.16.29.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:106) ~[authlib-3.16.29.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:197) ~[authlib-3.16.29.jar:?]
+	at com.destroystokyo.paper.profile.PaperMinecraftSessionService.fillGameProfile(PaperMinecraftSessionService.java:38) ~[paper-1.19.3.jar:git-Paper-445]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:175) ~[authlib-3.16.29.jar:?]
+	at com.destroystokyo.paper.profile.PaperMinecraftSessionService.fillProfileProperties(PaperMinecraftSessionService.java:31) ~[paper-1.19.3.jar:git-Paper-445]
+	at net.minecraft.world.level.block.entity.SkullBlockEntity.lambda$updateGameprofile$2(SkullBlockEntity.java:148) ~[?:?]
+	at net.minecraft.Util.ifElse(Util.java:461) ~[?:?]
+	at net.minecraft.world.level.block.entity.SkullBlockEntity.lambda$updateGameprofile$5(SkullBlockEntity.java:144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1589) ~[?:?]
+Caused by: javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.ssl.Alert.createSSLException(Alert.java:130) ~[?:?]
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:371) ~[?:?]
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:314) ~[?:?]
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:309) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(CertificateMessage.java:654) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.onCertificate(CertificateMessage.java:473) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.consume(CertificateMessage.java:369) ~[?:?]
+	at sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:396) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:480) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:458) ~[?:?]
+	at sun.security.ssl.TransportContext.dispatch(TransportContext.java:201) ~[?:?]
+	at sun.security.ssl.SSLTransport.decode(SSLTransport.java:172) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1510) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1425) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426) ~[?:?]
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:578) ~[?:?]
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:187) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1661) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1585) ~[?:?]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:224) ~[?:?]
+	at com.mojang.authlib.HttpAuthenticationService.performGetRequest(HttpAuthenticationService.java:140) ~[authlib-3.16.29.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:111) ~[authlib-3.16.29.jar:?]
+	... 11 more
+Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:388) ~[?:?]
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:271) ~[?:?]
+	at sun.security.validator.Validator.validate(Validator.java:256) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:231) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:132) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(CertificateMessage.java:638) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.onCertificate(CertificateMessage.java:473) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.consume(CertificateMessage.java:369) ~[?:?]
+	at sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:396) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:480) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:458) ~[?:?]
+	at sun.security.ssl.TransportContext.dispatch(TransportContext.java:201) ~[?:?]
+	at sun.security.ssl.SSLTransport.decode(SSLTransport.java:172) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1510) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1425) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426) ~[?:?]
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:578) ~[?:?]
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:187) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1661) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1585) ~[?:?]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:224) ~[?:?]
+	at com.mojang.authlib.HttpAuthenticationService.performGetRequest(HttpAuthenticationService.java:140) ~[authlib-3.16.29.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:111) ~[authlib-3.16.29.jar:?]
+	... 11 more
+Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.provider.certpath.SunCertPathBuilder.build(SunCertPathBuilder.java:141) ~[?:?]
+	at sun.security.provider.certpath.SunCertPathBuilder.engineBuild(SunCertPathBuilder.java:126) ~[?:?]
+	at java.security.cert.CertPathBuilder.build(CertPathBuilder.java:297) ~[?:?]
+	at sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:383) ~[?:?]
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:271) ~[?:?]
+	at sun.security.validator.Validator.validate(Validator.java:256) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:231) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:132) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(CertificateMessage.java:638) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.onCertificate(CertificateMessage.java:473) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.consume(CertificateMessage.java:369) ~[?:?]
+	at sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:396) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:480) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:458) ~[?:?]
+	at sun.security.ssl.TransportContext.dispatch(TransportContext.java:201) ~[?:?]
+	at sun.security.ssl.SSLTransport.decode(SSLTransport.java:172) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1510) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1425) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426) ~[?:?]
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:578) ~[?:?]
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:187) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1661) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1585) ~[?:?]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:224) ~[?:?]
+	at com.mojang.authlib.HttpAuthenticationService.performGetRequest(HttpAuthenticationService.java:140) ~[authlib-3.16.29.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:111) ~[authlib-3.16.29.jar:?]
+	... 11 more
+[22:22:16] [Profile Lookup Executor #0/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@425b6f11[id=c7797be3-898d-3cca-8d09-70e0d7372e6f,name=AmiAkibNa,properties={},legacy=false]
+com.mojang.authlib.exceptions.AuthenticationUnavailableException: Cannot contact authentication server
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:134) ~[authlib-3.16.29.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:106) ~[authlib-3.16.29.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:197) ~[authlib-3.16.29.jar:?]
+	at com.destroystokyo.paper.profile.PaperMinecraftSessionService.fillGameProfile(PaperMinecraftSessionService.java:38) ~[paper-1.19.3.jar:git-Paper-445]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:175) ~[authlib-3.16.29.jar:?]
+	at com.destroystokyo.paper.profile.PaperMinecraftSessionService.fillProfileProperties(PaperMinecraftSessionService.java:31) ~[paper-1.19.3.jar:git-Paper-445]
+	at net.minecraft.world.level.block.entity.SkullBlockEntity.lambda$updateGameprofile$2(SkullBlockEntity.java:148) ~[?:?]
+	at net.minecraft.Util.ifElse(Util.java:461) ~[?:?]
+	at net.minecraft.world.level.block.entity.SkullBlockEntity.lambda$updateGameprofile$5(SkullBlockEntity.java:144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1589) ~[?:?]
+Caused by: javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.ssl.Alert.createSSLException(Alert.java:130) ~[?:?]
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:371) ~[?:?]
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:314) ~[?:?]
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:309) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(CertificateMessage.java:654) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.onCertificate(CertificateMessage.java:473) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.consume(CertificateMessage.java:369) ~[?:?]
+	at sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:396) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:480) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:458) ~[?:?]
+	at sun.security.ssl.TransportContext.dispatch(TransportContext.java:201) ~[?:?]
+	at sun.security.ssl.SSLTransport.decode(SSLTransport.java:172) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1510) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1425) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426) ~[?:?]
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:578) ~[?:?]
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:187) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1661) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1585) ~[?:?]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:224) ~[?:?]
+	at com.mojang.authlib.HttpAuthenticationService.performGetRequest(HttpAuthenticationService.java:140) ~[authlib-3.16.29.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:111) ~[authlib-3.16.29.jar:?]
+	... 11 more
+Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:388) ~[?:?]
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:271) ~[?:?]
+	at sun.security.validator.Validator.validate(Validator.java:256) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:231) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:132) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(CertificateMessage.java:638) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.onCertificate(CertificateMessage.java:473) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.consume(CertificateMessage.java:369) ~[?:?]
+	at sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:396) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:480) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:458) ~[?:?]
+	at sun.security.ssl.TransportContext.dispatch(TransportContext.java:201) ~[?:?]
+	at sun.security.ssl.SSLTransport.decode(SSLTransport.java:172) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1510) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1425) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426) ~[?:?]
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:578) ~[?:?]
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:187) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1661) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1585) ~[?:?]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:224) ~[?:?]
+	at com.mojang.authlib.HttpAuthenticationService.performGetRequest(HttpAuthenticationService.java:140) ~[authlib-3.16.29.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:111) ~[authlib-3.16.29.jar:?]
+	... 11 more
+Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.provider.certpath.SunCertPathBuilder.build(SunCertPathBuilder.java:141) ~[?:?]
+	at sun.security.provider.certpath.SunCertPathBuilder.engineBuild(SunCertPathBuilder.java:126) ~[?:?]
+	at java.security.cert.CertPathBuilder.build(CertPathBuilder.java:297) ~[?:?]
+	at sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:383) ~[?:?]
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:271) ~[?:?]
+	at sun.security.validator.Validator.validate(Validator.java:256) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:231) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:132) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(CertificateMessage.java:638) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.onCertificate(CertificateMessage.java:473) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.consume(CertificateMessage.java:369) ~[?:?]
+	at sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:396) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:480) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:458) ~[?:?]
+	at sun.security.ssl.TransportContext.dispatch(TransportContext.java:201) ~[?:?]
+	at sun.security.ssl.SSLTransport.decode(SSLTransport.java:172) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1510) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1425) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426) ~[?:?]
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:578) ~[?:?]
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:187) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1661) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1585) ~[?:?]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:224) ~[?:?]
+	at com.mojang.authlib.HttpAuthenticationService.performGetRequest(HttpAuthenticationService.java:140) ~[authlib-3.16.29.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:111) ~[authlib-3.16.29.jar:?]
+	... 11 more
+[22:22:54] [Async Chat Thread - #3/INFO]: [Not Secure] <AmiAkibNa> arekta villager lageshudhu taile iron farm e per minute 4 ta koira golem spawn korbo
+[22:23:01] [Async Chat Thread - #2/INFO]: [Not Secure] <AmiAkibNa> ekhon 2 ta koira hoitase
+[22:23:12] [Async Chat Thread - #3/INFO]: [Not Secure] <AmiAkibNa> bhai ngrok e ping 173 :skull:
+[22:23:18] [Async Chat Thread - #2/INFO]: [Not Secure] <xxxTASHINxxx> bhai, tui zomblie kmne paili, r nametag kmne paili
+[22:23:29] [Async Chat Thread - #3/INFO]: [Not Secure] <AmiAkibNa> nametag lage na
+[22:23:33] [Async Chat Thread - #2/INFO]: [Not Secure] <AmiAkibNa> boat e rakhle
+[22:23:41] [Async Chat Thread - #3/INFO]: [Not Secure] <AmiAkibNa> and zombie capture kora ez
+[22:23:47] [Async Chat Thread - #2/INFO]: [Not Secure] <xxxTASHINxxx> ;/
+[22:23:53] [Async Chat Thread - #3/INFO]: [Not Secure] <AmiAkibNa> jabi ?
+[22:23:59] [Async Chat Thread - #2/INFO]: [Not Secure] <xxxTASHINxxx> ping amr
+[22:24:13] [Async Chat Thread - #3/INFO]: [Not Secure] <xxxTASHINxxx> jaite to chaichilam
+[22:24:32] [Async Chat Thread - #2/INFO]: [Not Secure] <AmiAkibNa> are ay
+[22:24:34] [Async Chat Thread - #3/INFO]: [Not Secure] <AmiAkibNa> moja hoibo
+[22:24:39] [Async Chat Thread - #2/INFO]: [Not Secure] <xxxTASHINxxx> bhai nogode mormu
+[22:24:41] [Server thread/INFO]: AmiAkibNa issued server command: /home ironfarm
+[22:24:41] [Server thread/WARN]: AmiAkibNa moved too quickly! 49.37087509381513,0.0,245.54493229898313
+[22:24:42] [Server thread/WARN]: AmiAkibNa moved too quickly! 49.37087509381513,0.0,245.54493229898313
+[22:24:45] [Async Chat Thread - #3/INFO]: [Not Secure] <xxxTASHINxxx> bad deh tui ja, tor na armor ache
+[22:24:48] [Async Chat Thread - #2/INFO]: [Not Secure] <AmiAkibNa> kill kora lage na bainchod
+[22:24:52] [Async Chat Thread - #3/INFO]: [Not Secure] <AmiAkibNa> automatic farm
+[22:24:58] [Async Chat Thread - #2/INFO]: [Not Secure] <xxxTASHINxxx> dami jinish gula raikha ja
+[22:25:02] [Async Chat Thread - #3/INFO]: [Not Secure] <xxxTASHINxxx> jani bhai
+[22:25:06] [Async Chat Thread - #2/INFO]: [Not Secure] <AmiAkibNa> tpa kor amar kase
+[22:25:13] [Async Chat Thread - #3/INFO]: [Not Secure] <xxxTASHINxxx> tui nether e?
+[22:25:18] [Async Chat Thread - #2/INFO]: [Not Secure] <AmiAkibNa> nah
+[22:25:20] [Async Chat Thread - #3/INFO]: [Not Secure] <AmiAkibNa> farm e
+[22:25:37] [Async Chat Thread - #2/INFO]: [Not Secure] <xxxTASHINxxx> tp req kmne kore
+[22:25:43] [Async Chat Thread - #3/INFO]: [Not Secure] <AmiAkibNa> do /tpa am
+[22:25:47] [Server thread/INFO]: xxxTASHINxxx issued server command: /tpa AmiAkibNa
+[22:25:50] [Server thread/INFO]: AmiAkibNa issued server command: /tpaccept
+[22:26:01] [Server thread/INFO]: xxxTASHINxxx issued server command: /tpa am
+[22:26:10] [Server thread/INFO]: AmiAkibNa issued server command: /tpaccept
+[22:26:20] [Async Chat Thread - #2/INFO]: [Not Secure] <xxxTASHINxxx> alr
+[22:26:36] [Async Chat Thread - #3/INFO]: [Not Secure] <xxxTASHINxxx> bhai ami sure tui creative use korchos
+[22:26:39] [Async Chat Thread - #2/INFO]: [Not Secure] <AmiAkibNa> baal
+[22:26:40] [Async Chat Thread - #3/INFO]: [Not Secure] <AmiAkibNa> kemne
+[22:26:49] [Async Chat Thread - #2/INFO]: [Not Secure] <AmiAkibNa> tore explain krmu
+[22:26:50] [Async Chat Thread - #3/INFO]: [Not Secure] <xxxTASHINxxx> 9 ta lava bucket koi paili?
+[22:26:54] [Async Chat Thread - #2/INFO]: [Not Secure] <AmiAkibNa> 9 ta na
+[22:26:55] [Async Chat Thread - #3/INFO]: [Not Secure] <AmiAkibNa> 1 ta
+[22:26:58] [Async Chat Thread - #2/INFO]: [Not Secure] <AmiAkibNa> spread korse
+[22:27:00] [Async Chat Thread - #3/INFO]: [Not Secure] <xxxTASHINxxx> k
+[22:27:03] [Async Chat Thread - #2/INFO]: [Not Secure] <AmiAkibNa> bolod
+[22:27:06] [Async Chat Thread - #3/INFO]: [Not Secure] <xxxTASHINxxx> iron nimu kichu?
+[22:27:08] [Async Chat Thread - #2/INFO]: [Not Secure] <AmiAkibNa> ne
+[22:27:16] [Async Chat Thread - #3/INFO]: [Not Secure] <xxxTASHINxxx> k ty
+[22:27:21] [Async Chat Thread - #2/INFO]: [Not Secure] <AmiAkibNa> upore ay
+[22:27:28] [Async Chat Thread - #3/INFO]: [Not Secure] <xxxTASHINxxx> dekhi ki banaichos
+[22:27:47] [Async Chat Thread - #2/INFO]: [Not Secure] <AmiAkibNa> bhai tor ping tore teleport kortase
+[22:27:59] [Async Chat Thread - #3/INFO]: [Not Secure] <AmiAkibNa> ?
+[22:28:09] [Async Chat Thread - #2/INFO]: [Not Secure] <AmiAkibNa> eta amar temp base
+[22:28:11] [Async Chat Thread - #3/INFO]: [Not Secure] <xxxTASHINxxx> farm er shundorjo noshto kore ;-;
+[22:28:11] [Async Chat Thread - #2/INFO]: [Not Secure] <AmiAkibNa> dekh
+[22:28:23] [Async Chat Thread - #3/INFO]: [Not Secure] <AmiAkibNa> ekhane ekta villager anle W
+[22:28:33] [Async Chat Thread - #2/INFO]: [Not Secure] <AmiAkibNa> ekhane 2 ta ase
+[22:28:37] [Async Chat Thread - #3/INFO]: [Not Secure] <AmiAkibNa> 3 ta hoilei hose
+[22:28:44] [Async Chat Thread - #2/INFO]: [Not Secure] <xxxTASHINxxx> ianxofour er farm gula oshthir
+[22:28:55] [Async Chat Thread - #3/INFO]: [Not Secure] <AmiAkibNa> eta ianxofour er e
+[22:28:59] [Async Chat Thread - #2/INFO]: [Not Secure] <xxxTASHINxxx> hm jani
+[22:29:05] [Async Chat Thread - #3/INFO]: [Not Secure] <xxxTASHINxxx> or raid farm o ache, guardian farm
+[22:29:07] [Async Chat Thread - #2/INFO]: [Not Secure] <xxxTASHINxxx> JOSS!!
+[22:29:12] [Async Chat Thread - #3/INFO]: [Not Secure] <AmiAkibNa> reddot er te paisi ei farm
+[22:29:14] [Async Chat Thread - #2/INFO]: [Not Secure] <xxxTASHINxxx> guardian farm da banano lagbo
+[22:29:22] [Async Chat Thread - #3/INFO]: [Not Secure] <xxxTASHINxxx> gold farm da banais osthir
+[22:29:33] [Server thread/INFO]: xxxTASHINxxx lost connection: Disconnected
+[22:29:33] [Server thread/INFO]: xxxTASHINxxx left the game
+[22:29:45] [User Authenticator #1/INFO]: UUID of player xxxTASHINxxx is fc1c7f89-4bfb-39c2-89a0-d1732614703e
+[22:29:45] [Server thread/INFO]: xxxTASHINxxx joined the game
+[22:29:45] [Server thread/INFO]: xxxTASHINxxx[/[0:0:0:0:0:0:0:1]:53824] logged in with entity id 2470 at ([leave]391.5622610790159, 63.0, 193.15034095757397)
+[22:29:49] [Server thread/INFO]: xxxTASHINxxx lost connection: Disconnected
+[22:29:49] [Server thread/INFO]: xxxTASHINxxx left the game
+[22:29:49] [Async Chat Thread - #2/INFO]: [Not Secure] <AmiAkibNa> bruh
+[22:29:54] [User Authenticator #1/INFO]: UUID of player xxxTASHINxxx is fc1c7f89-4bfb-39c2-89a0-d1732614703e
+[22:29:54] [Server thread/INFO]: xxxTASHINxxx joined the game
+[22:29:54] [Server thread/INFO]: xxxTASHINxxx[/[0:0:0:0:0:0:0:1]:53827] logged in with entity id 2494 at ([leave]391.5622610790159, 63.0, 193.15034095757397)
+[22:30:05] [Async Chat Thread - #3/INFO]: [Not Secure] <xxxTASHINxxx> eita block kor
+[22:30:06] [Async Chat Thread - #2/INFO]: [Not Secure] <AmiAkibNa> ekhane 3 ta
+[22:30:09] [Async Chat Thread - #3/INFO]: [Not Secure] <AmiAkibNa> nah
+[22:30:13] [Async Chat Thread - #2/INFO]: [Not Secure] <xxxTASHINxxx> koyta lage?
+[22:30:15] [Async Chat Thread - #3/INFO]: [Not Secure] <AmiAkibNa> :)
+[22:30:23] [Async Chat Thread - #2/INFO]: [Not Secure] <AmiAkibNa> protttektay 3 ta koira
+[22:30:27] [Async Chat Thread - #3/INFO]: [Not Secure] <AmiAkibNa> ekhane 3 ta
+[22:30:31] [Async Chat Thread - #2/INFO]: [Not Secure] <AmiAkibNa> arektay 2 ta
+[22:30:37] [Async Chat Thread - #3/INFO]: [Not Secure] <xxxTASHINxxx> villager r pabi koi?
+[22:30:37] [Async Chat Thread - #2/INFO]: [Not Secure] <AmiAkibNa> elliga ektu slow
+[22:30:42] [Async Chat Thread - #3/INFO]: [Not Secure] <AmiAkibNa> jani na
+[22:30:46] [Async Chat Thread - #2/INFO]: [Not Secure] <AmiAkibNa> samne vilalge ase
+[22:30:50] [Async Chat Thread - #3/INFO]: [Not Secure] <AmiAkibNa> oikhan thika ansi
+[22:30:52] [Async Chat Thread - #2/INFO]: [Not Secure] <AmiAkibNa> 2 ta
+[22:30:55] [Async Chat Thread - #3/INFO]: [Not Secure] <AmiAkibNa> then breed
+[22:31:04] [Async Chat Thread - #2/INFO]: [Not Secure] <xxxTASHINxxx> r koyta lage?
+[22:31:10] [Async Chat Thread - #3/INFO]: [Not Secure] <AmiAkibNa> 1 ta hoilei enough
+[22:31:14] [Async Chat Thread - #2/INFO]: [Not Secure] <AmiAkibNa> ar lagbo na
+[22:32:09] [Async Chat Thread - #3/INFO]: [Not Secure] <xxxTASHINxxx> gg
+[22:32:35] [Async Chat Thread - #2/INFO]: [Not Secure] <AmiAkibNa> koi jas
+[22:32:40] [Async Chat Thread - #3/INFO]: [Not Secure] <xxxTASHINxxx> tui oita niya ay
+[22:32:41] [Async Chat Thread - #2/INFO]: [Not Secure] <AmiAkibNa> villager raijha
+[22:32:47] [Async Chat Thread - #3/INFO]: [Not Secure] <AmiAkibNa> poira gesew
+[22:32:51] [Async Chat Thread - #2/INFO]: [Not Secure] <xxxTASHINxxx> lmao
+[22:32:56] [Async Chat Thread - #3/INFO]: [Not Secure] <xxxTASHINxxx> tui ekta ne ami ekta neiu
+[22:33:03] [Async Chat Thread - #2/INFO]: [Not Secure] <AmiAkibNa> tui koi
+[22:33:09] [Async Chat Thread - #3/INFO]: [Not Secure] <xxxTASHINxxx> farm e jaitachi
+[22:34:16] [Async Chat Thread - #5/INFO]: [Not Secure] <AmiAkibNa> ana jaitase na
+[22:35:26] [Server thread/INFO]: xxxTASHINxxx lost connection: Timed out
+[22:35:26] [Server thread/INFO]: xxxTASHINxxx left the game
+[22:35:42] [User Authenticator #2/INFO]: UUID of player xxxTASHINxxx is fc1c7f89-4bfb-39c2-89a0-d1732614703e
+[22:35:42] [Server thread/INFO]: xxxTASHINxxx joined the game
+[22:35:42] [Server thread/INFO]: xxxTASHINxxx[/[0:0:0:0:0:0:0:1]:53835] logged in with entity id 4958 at ([leave]-185.32164190050344, 63.0, 358.9633887109518)
+[22:36:04] [Server thread/INFO]: AmiAkibNa issued server command: /tpa xxxTASHINxxx
+[22:36:05] [Server thread/WARN]: Boat (vehicle of xxxTASHINxxx) moved wrongly! 0.2770969173898834
+[22:36:05] [Server thread/WARN]: Boat (vehicle of xxxTASHINxxx) moved wrongly! 0.3332635803660082
+[22:36:05] [Server thread/WARN]: Boat (vehicle of xxxTASHINxxx) moved wrongly! 0.3927231209123647
+[22:36:05] [Server thread/WARN]: Boat (vehicle of xxxTASHINxxx) moved wrongly! 0.45514625119335506
+[22:36:05] [Server thread/WARN]: Boat (vehicle of xxxTASHINxxx) moved wrongly! 0.5250886262930408
+[22:36:05] [Server thread/WARN]: Boat (vehicle of xxxTASHINxxx) moved wrongly! 0.6354311639084358
+[22:36:05] [Server thread/WARN]: Boat (vehicle of xxxTASHINxxx) moved wrongly! 0.7815914445573071
+[22:36:05] [Server thread/WARN]: Boat (vehicle of xxxTASHINxxx) moved wrongly! 0.9591854816189311
+[22:36:05] [Server thread/WARN]: Boat (vehicle of xxxTASHINxxx) moved wrongly! 1.163930291422048
+[22:36:05] [Server thread/WARN]: Boat (vehicle of xxxTASHINxxx) moved wrongly! 1.3826664722134865
+[22:36:05] [Server thread/WARN]: Boat (vehicle of xxxTASHINxxx) moved wrongly! 1.6031095069842536
+[22:36:05] [Server thread/WARN]: Boat (vehicle of xxxTASHINxxx) moved wrongly! 1.8230865399863205
+[22:36:05] [Server thread/WARN]: Boat (vehicle of xxxTASHINxxx) moved wrongly! 2.0406566936432
+[22:36:05] [Server thread/WARN]: Boat (vehicle of xxxTASHINxxx) moved wrongly! 2.2541945313763563
+[22:36:05] [Server thread/WARN]: Boat (vehicle of xxxTASHINxxx) moved wrongly! 2.462271323078653
+[22:36:05] [Server thread/WARN]: Boat (vehicle of xxxTASHINxxx) moved wrongly! 2.6600228959169954
+[22:36:05] [Server thread/WARN]: Boat (vehicle of xxxTASHINxxx) moved wrongly! 2.8469027909670785
+[22:36:05] [Server thread/WARN]: Boat (vehicle of xxxTASHINxxx) moved wrongly! 3.0225301064155587
+[22:36:05] [Server thread/WARN]: Boat (vehicle of xxxTASHINxxx) moved wrongly! 3.1891486991123337
+[22:36:05] [Server thread/WARN]: Boat (vehicle of xxxTASHINxxx) moved wrongly! 3.3535944859378213
+[22:36:05] [Server thread/WARN]: Boat (vehicle of xxxTASHINxxx) moved wrongly! 3.517720280229292
+[22:36:05] [Server thread/WARN]: Boat (vehicle of xxxTASHINxxx) moved wrongly! 3.695438251180583
+[22:36:05] [Server thread/WARN]: Boat (vehicle of xxxTASHINxxx) moved wrongly! 3.8870144893194376
+[22:36:05] [Server thread/WARN]: Boat (vehicle of xxxTASHINxxx) moved wrongly! 4.092998175221028
+[22:36:05] [Server thread/WARN]: Boat (vehicle of xxxTASHINxxx) moved wrongly! 4.313957030386418
+[22:36:05] [Server thread/WARN]: Boat (vehicle of xxxTASHINxxx) moved wrongly! 4.550389540980431
+[22:36:05] [Server thread/WARN]: Boat (vehicle of xxxTASHINxxx) moved wrongly! 4.802595275126534
+[22:36:05] [Server thread/WARN]: Boat (vehicle of xxxTASHINxxx) moved wrongly! 5.07056827780742
+[22:36:05] [Server thread/WARN]: Boat (vehicle of xxxTASHINxxx) moved wrongly! 5.353895214777515
+[22:36:05] [Server thread/WARN]: Boat (vehicle of xxxTASHINxxx) moved wrongly! 5.618259953389064
+[22:36:05] [Server thread/WARN]: Boat (vehicle of xxxTASHINxxx) moved wrongly! 5.864387478282397
+[22:36:05] [Server thread/WARN]: Boat (vehicle of xxxTASHINxxx) moved wrongly! 6.093258252961468
+[22:36:05] [Server thread/WARN]: Boat (vehicle of xxxTASHINxxx) moved wrongly! 6.300959352804875
+[22:36:05] [Server thread/WARN]: Boat (vehicle of xxxTASHINxxx) moved wrongly! 6.489147423513106
+[22:36:05] [Server thread/WARN]: Boat (vehicle of xxxTASHINxxx) moved wrongly! 6.65944830919775
+[22:36:05] [Server thread/WARN]: Boat (vehicle of xxxTASHINxxx) moved wrongly! 6.818129485722199
+[22:36:05] [Server thread/WARN]: Boat (vehicle of xxxTASHINxxx) moved wrongly! 6.901186618896035
+[22:36:05] [Server thread/WARN]: Boat (vehicle of xxxTASHINxxx) moved wrongly! 6.9698942954696195
+[22:36:05] [Server thread/WARN]: Boat (vehicle of xxxTASHINxxx) moved wrongly! 7.036068178810218
+[22:36:05] [Server thread/WARN]: Boat (vehicle of xxxTASHINxxx) moved wrongly! 7.0958816324251375
+[22:36:05] [Server thread/WARN]: Boat (vehicle of xxxTASHINxxx) moved wrongly! 7.149916635172719
+[22:36:05] [Server thread/WARN]: Boat (vehicle of xxxTASHINxxx) moved wrongly! 7.198708768196904
+[22:36:05] [Server thread/WARN]: Boat (vehicle of xxxTASHINxxx) moved wrongly! 7.266234872797899
+[22:36:05] [Server thread/WARN]: Boat (vehicle of xxxTASHINxxx) moved wrongly! 7.349211547630328
+[22:36:05] [Server thread/WARN]: Boat (vehicle of xxxTASHINxxx) moved wrongly! 7.445089081616467
+[22:36:05] [Server thread/WARN]: Boat (vehicle of xxxTASHINxxx) moved wrongly! 7.552533714987304
+[22:36:05] [Server thread/WARN]: Boat (vehicle of xxxTASHINxxx) moved wrongly! 7.671210845066373
+[22:36:05] [Server thread/WARN]: Boat (vehicle of xxxTASHINxxx) moved wrongly! 7.801505747512146
+[22:36:05] [Server thread/WARN]: Boat (vehicle of xxxTASHINxxx) moved wrongly! 7.9443084627967755
+[22:36:05] [Server thread/WARN]: Boat (vehicle of xxxTASHINxxx) moved wrongly! 8.100806731416158
+[22:36:05] [Server thread/WARN]: Boat (vehicle of xxxTASHINxxx) moved wrongly! 8.27268033786996
+[22:36:05] [Server thread/WARN]: Boat (vehicle of xxxTASHINxxx) moved wrongly! 8.504209290452438
+[22:36:05] [Server thread/WARN]: Boat (vehicle of xxxTASHINxxx) moved wrongly! 8.748101022167111
+[22:36:05] [Server thread/WARN]: Boat (vehicle of xxxTASHINxxx) moved wrongly! 9.004003758594218
+[22:36:05] [Server thread/WARN]: Boat (vehicle of xxxTASHINxxx) moved wrongly! 4.601426363964322
+[22:36:05] [Server thread/WARN]: Boat (vehicle of xxxTASHINxxx) moved wrongly! 4.8299222184705854
+[22:36:05] [Server thread/WARN]: Boat (vehicle of xxxTASHINxxx) moved wrongly! 5.0
+[22:36:05] [Server thread/WARN]: Boat (vehicle of xxxTASHINxxx) moved wrongly! 5.0
+[22:36:05] [Server thread/WARN]: Boat (vehicle of xxxTASHINxxx) moved wrongly! 5.0
+[22:36:05] [Server thread/WARN]: Boat (vehicle of xxxTASHINxxx) moved wrongly! 5.0
+[22:36:05] [Server thread/WARN]: Boat (vehicle of xxxTASHINxxx) moved wrongly! 5.0
+[22:36:05] [Server thread/WARN]: Boat (vehicle of xxxTASHINxxx) moved wrongly! 5.0
+[22:36:05] [Server thread/WARN]: Boat (vehicle of xxxTASHINxxx) moved wrongly! 5.0
+[22:36:05] [Server thread/WARN]: Boat (vehicle of xxxTASHINxxx) moved wrongly! 5.0
+[22:36:05] [Server thread/WARN]: Boat (vehicle of xxxTASHINxxx) moved wrongly! 5.0
+[22:36:05] [Server thread/WARN]: Boat (vehicle of xxxTASHINxxx) moved wrongly! 5.0
+[22:36:14] [Server thread/INFO]: xxxTASHINxxx issued server command: /tpaccept
+[22:36:17] [Server thread/INFO]: AmiAkibNa issued server command: /tpa xxxTASHINxxx
+[22:36:40] [Async Chat Thread - #7/INFO]: [Not Secure] <AmiAkibNa> ...
+[22:36:54] [Async Chat Thread - #6/INFO]: [Not Secure] <xxxTASHINxxx> abr de
+[22:36:59] [Server thread/INFO]: AmiAkibNa issued server command: /tpa xxxTASHINxxx
+[22:37:01] [Server thread/INFO]: xxxTASHINxxx issued server command: /tpaccept
+[22:37:12] [Server thread/INFO]: AmiAkibNa issued server command: /tpa xxxTASHINxxx
+[22:37:15] [Server thread/INFO]: xxxTASHINxxx issued server command: /tpaccept
+[22:37:18] [Async Chat Thread - #7/INFO]: [Not Secure] <xxxTASHINxxx> korchi
+[22:37:21] [Async Chat Thread - #6/INFO]: [Not Secure] <AmiAkibNa> ok
+[22:37:55] [Async Chat Thread - #7/INFO]: [Not Secure] <xxxTASHINxxx> farm er location de
+[22:38:08] [Server thread/INFO]: AmiAkibNa issued server command: /home ironfarm
+[22:38:08] [Server thread/WARN]: AmiAkibNa moved too quickly! 444.70961010912777,4.487159757279002,-344.71035467535467
+[22:38:08] [Server thread/WARN]: AmiAkibNa moved too quickly! 444.70961010912777,4.487159757279002,-344.71035467535467
+[22:38:08] [Server thread/WARN]: AmiAkibNa moved too quickly! 444.70961010912777,4.487159757279002,-344.71035467535467
+[22:38:20] [Async Chat Thread - #6/INFO]: [Not Secure] <AmiAkibNa> 383 181
+[22:39:25] [Server thread/WARN]: xxxTASHINxxx was kicked due to keepalive timeout!
+[22:39:25] [Server thread/INFO]: xxxTASHINxxx lost connection: Timed out
+[22:39:25] [Server thread/INFO]: xxxTASHINxxx left the game
+[22:39:34] [User Authenticator #3/INFO]: UUID of player xxxTASHINxxx is fc1c7f89-4bfb-39c2-89a0-d1732614703e
+[22:39:34] [Server thread/INFO]: xxxTASHINxxx joined the game
+[22:39:35] [Server thread/INFO]: xxxTASHINxxx[/[0:0:0:0:0:0:0:1]:53842] logged in with entity id 7039 at ([leave]-48.3125, 61.99486432313919, 304.9252542466776)
+[22:39:45] [Server thread/WARN]: Boat (vehicle of xxxTASHINxxx) moved wrongly! 0.3104634462900435
+[22:39:45] [Server thread/WARN]: Boat (vehicle of xxxTASHINxxx) moved wrongly! 0.4509628195748405
+[22:40:13] [Server thread/INFO]: xxxTASHINxxx lost connection: Disconnected
+[22:40:13] [Server thread/INFO]: xxxTASHINxxx left the game
+[22:40:15] [User Authenticator #3/INFO]: UUID of player xxxTASHINxxx is fc1c7f89-4bfb-39c2-89a0-d1732614703e
+[22:40:15] [Server thread/INFO]: xxxTASHINxxx joined the game
+[22:40:15] [Server thread/INFO]: xxxTASHINxxx[/[0:0:0:0:0:0:0:1]:53851] logged in with entity id 7263 at ([leave]-48.3125, 62.06084560906784, 300.6875)
+[22:40:32] [Server thread/INFO]: AmiAkibNa issued server command: /kick
+[22:40:35] [Server thread/INFO]: AmiAkibNa issued server command: /kick xxxTASHINxxx
+[22:40:35] [Server thread/INFO]: xxxTASHINxxx lost connection: Kicked from server.
+[22:40:35] [Server thread/INFO]: xxxTASHINxxx left the game
+[22:40:35] [Server thread/INFO]: [Essentials] Player AmiAkibNa kicked xxxTASHINxxx for Kicked from server..
+[22:40:39] [User Authenticator #3/INFO]: UUID of player xxxTASHINxxx is fc1c7f89-4bfb-39c2-89a0-d1732614703e
+[22:40:39] [Server thread/INFO]: xxxTASHINxxx joined the game
+[22:40:39] [Server thread/INFO]: xxxTASHINxxx[/[0:0:0:0:0:0:0:1]:53857] logged in with entity id 7400 at ([leave]-48.275239326531945, 62.24154365218253, 307.8953616164161)
+[22:40:42] [Async Chat Thread - #9/INFO]: [Not Secure] <xxxTASHINxxx> kire bhai
+[22:40:46] [Async Chat Thread - #8/INFO]: [Not Secure] <AmiAkibNa> ghumaisi
+[22:41:30] [Async Chat Thread - #9/INFO]: [Not Secure] <xxxTASHINxxx> farm er corrds de abr
+[22:41:36] [Async Chat Thread - #8/INFO]: [Not Secure] <AmiAkibNa> 383 181
+[22:41:44] [Async Chat Thread - #9/INFO]: [Not Secure] <AmiAkibNa> woodd nia ais
+[22:42:51] [Async Chat Thread - #11/INFO]: [Not Secure] <AmiAkibNa> ay
+[22:43:03] [Async Chat Thread - #10/INFO]: [Not Secure] <xxxTASHINxxx> are baller vilalger
+[22:43:06] [Async Chat Thread - #11/INFO]: [Not Secure] <xxxTASHINxxx> moga cho
+[22:43:07] [Async Chat Thread - #10/INFO]: [Not Secure] <AmiAkibNa> frf
+[22:43:13] [Server thread/INFO]: AmiAkibNa issued server command: /home ironfarm
+[22:43:13] [Server thread/WARN]: AmiAkibNa moved too quickly! 1.5356131024929027,6.4375,-16.789751460525423
+[22:43:20] [Async Chat Thread - #11/INFO]: [Not Secure] <AmiAkibNa> ami amu ?
+[22:43:30] [Async Chat Thread - #10/INFO]: [Not Secure] <xxxTASHINxxx> na thak
+[22:43:42] [Async Chat Thread - #11/INFO]: [Not Secure] <xxxTASHINxxx> antachi
+[22:43:46] [Async Chat Thread - #10/INFO]: [Not Secure] <AmiAkibNa> ay
+[22:44:50] [Async Chat Thread - #13/INFO]: [Not Secure] <AmiAkibNa> :/
+[22:45:00] [Async Chat Thread - #12/INFO]: [Not Secure] <xxxTASHINxxx> rasta pai na
+[22:45:08] [Async Chat Thread - #13/INFO]: [Not Secure] <AmiAkibNa> tp kortasi
+[22:45:13] [Server thread/INFO]: AmiAkibNa issued server command: /tpa xxxTASHINxxx
+[22:45:20] [Server thread/INFO]: xxxTASHINxxx issued server command: /tpaccept
+[22:45:28] [Async Chat Thread - #12/INFO]: [Not Secure] <AmiAkibNa> nam
+[22:45:28] [Server thread/WARN]: Boat (vehicle of xxxTASHINxxx) moved wrongly! 0.8011232722532498
+[22:45:28] [Server thread/WARN]: Boat (vehicle of xxxTASHINxxx) moved wrongly! 0.8011232722532498
+[22:45:28] [Server thread/WARN]: Boat (vehicle of xxxTASHINxxx) moved wrongly! 0.8011232722532498
+[22:45:28] [Server thread/WARN]: Boat (vehicle of xxxTASHINxxx) moved wrongly! 0.5533227746090574
+[22:45:28] [Server thread/WARN]: Boat (vehicle of xxxTASHINxxx) moved wrongly! 0.2939161049002337
+[22:45:37] [Async Chat Thread - #13/INFO]: [Not Secure] <xxxTASHINxxx> ne dekhi
+[22:45:39] [Server thread/INFO]: AmiAkibNa issued server command: /home ironfarm
+[22:45:39] [Server thread/WARN]: AmiAkibNa moved too quickly! 300.0852280952021,0.926735675334939,-13.109007472913788
+[22:45:39] [Server thread/WARN]: AmiAkibNa moved too quickly! 300.0852280952021,0.926735675334939,-13.109007472913788
+[22:45:39] [Server thread/WARN]: AmiAkibNa moved too quickly! 300.0852280952021,0.926735675334939,-13.109007472913788
+[22:45:39] [Server thread/WARN]: AmiAkibNa moved too quickly! 300.0852280952021,0.926735675334939,-13.109007472913788
+[22:45:39] [Server thread/WARN]: AmiAkibNa moved too quickly! 300.0852280952021,0.926735675334939,-13.109007472913788
+[22:45:39] [Server thread/WARN]: AmiAkibNa moved too quickly! 300.0852280952021,0.926735675334939,-13.109007472913788
+[22:45:42] [Async Chat Thread - #12/INFO]: [Not Secure] <AmiAkibNa> nice
+[22:45:46] [Server thread/INFO]: AmiAkibNa issued server command: /tpa xxxTASHINxxx
+[22:45:55] [Server thread/INFO]: xxxTASHINxxx issued server command: /tpaccept
+[22:45:57] [Async Chat Thread - #13/INFO]: [Not Secure] <AmiAkibNa> bhabsi boat theika tpp korle
+[22:46:01] [Async Chat Thread - #12/INFO]: [Not Secure] <AmiAkibNa> boat shoho ase
+[22:46:12] [Async Chat Thread - #13/INFO]: [Not Secure] <xxxTASHINxxx> LMFAO
+[22:46:23] [Async Chat Thread - #12/INFO]: [Not Secure] <AmiAkibNa> nice ping
+[22:47:55] [Server thread/INFO]: AmiAkibNa issued server command: /tpa xxxTASHINxxx
+[22:47:58] [Async Chat Thread - #15/INFO]: [Not Secure] <AmiAkibNa> ay
+[22:48:02] [Async Chat Thread - #14/INFO]: [Not Secure] <AmiAkibNa> dekhaitasi
+[22:48:05] [Async Chat Thread - #15/INFO]: [Not Secure] <xxxTASHINxxx> lag
+[22:48:13] [Async Chat Thread - #14/INFO]: [Not Secure] <xxxTASHINxxx> bru
+[22:48:46] [Async Chat Thread - #15/INFO]: [Not Secure] <xxxTASHINxxx> gotem
+[22:48:54] [Server thread/INFO]: AmiAkibNa issued server command: /home ironfarm
+[22:48:54] [Server thread/WARN]: AmiAkibNa moved too quickly! 221.7171833705078,-2.9375,11.313654850859137
+[22:48:54] [Server thread/WARN]: AmiAkibNa moved too quickly! 221.7171833705078,-2.9375,11.313654850859137
+[22:49:06] [Async Chat Thread - #14/INFO]: [Not Secure] <AmiAkibNa> where ?
+[22:49:28] [Async Chat Thread - #15/INFO]: [Not Secure] <xxxTASHINxxx> eije
+[22:49:37] [Async Chat Thread - #14/INFO]: [Not Secure] <xxxTASHINxxx> bozo
+[22:49:41] [Async Chat Thread - #15/INFO]: [Not Secure] <AmiAkibNa> ?
+[22:49:56] [Server thread/WARN]: xxxTASHINxxx was kicked for floating too long!
+[22:49:56] [Server thread/INFO]: xxxTASHINxxx lost connection: Flying is not enabled on this server
+[22:49:56] [Server thread/INFO]: xxxTASHINxxx left the game
+[22:50:22] [User Authenticator #4/INFO]: UUID of player xxxTASHINxxx is fc1c7f89-4bfb-39c2-89a0-d1732614703e
+[22:50:22] [Server thread/INFO]: xxxTASHINxxx joined the game
+[22:50:23] [Server thread/INFO]: xxxTASHINxxx[/[0:0:0:0:0:0:0:1]:53902] logged in with entity id 10888 at ([leave]379.59027775097945, 63.92293597758626, 192.62338201977758)
+[22:50:37] [Async Chat Thread - #14/INFO]: [Not Secure] <AmiAkibNa> lmao tor lag re amar server fly hiack bhabtase
+[22:51:14] [Async Chat Thread - #15/INFO]: [Not Secure] <AmiAkibNa> bhai
+[22:51:25] [Async Chat Thread - #14/INFO]: [Not Secure] <xxxTASHINxxx> bru
+[22:51:34] [Async Chat Thread - #15/INFO]: [Not Secure] <AmiAkibNa> nice
+[22:52:28] [Async Chat Thread - #14/INFO]: [Not Secure] <xxxTASHINxxx> xD
+[22:52:29] [Async Chat Thread - #15/INFO]: [Not Secure] <AmiAkibNa> ok
+[22:52:42] [Server thread/INFO]: AmiAkibNa was blown up by Creeper
+[22:52:45] [Async Chat Thread - #14/INFO]: [Not Secure] <AmiAkibNa> ok
+[22:52:49] [Server thread/INFO]: AmiAkibNa issued server command: /back
+[22:52:52] [Async Chat Thread - #15/INFO]: [Not Secure] <AmiAkibNa> ghuma
+[22:52:54] [Async Chat Thread - #14/INFO]: [Not Secure] <xxxTASHINxxx> bruh
+[22:53:06] [Async Chat Thread - #15/INFO]: [Not Secure] <xxxTASHINxxx> bruh
+[22:53:07] [Async Chat Thread - #14/INFO]: [Not Secure] <AmiAkibNa> ok
+[22:53:08] [Async Chat Thread - #15/INFO]: [Not Secure] <AmiAkibNa> lag
+[22:53:22] [Server thread/INFO]: AmiAkibNa issued server command: /kick xxxTASHINxxx
+[22:53:22] [Server thread/INFO]: xxxTASHINxxx lost connection: Kicked from server.
+[22:53:22] [Server thread/INFO]: xxxTASHINxxx left the game
+[22:53:22] [Server thread/INFO]: [Essentials] Player AmiAkibNa kicked xxxTASHINxxx for Kicked from server..
+[22:53:24] [Server thread/INFO]: AmiAkibNa issued server command: /time set day
+[22:53:30] [User Authenticator #5/INFO]: UUID of player xxxTASHINxxx is fc1c7f89-4bfb-39c2-89a0-d1732614703e
+[22:53:30] [Server thread/INFO]: xxxTASHINxxx joined the game
+[22:53:30] [Server thread/INFO]: xxxTASHINxxx[/[0:0:0:0:0:0:0:1]:53908] logged in with entity id 11542 at ([leave]378.95960715968414, 63.0, 209.02528862417194)
+[22:54:05] [Async Chat Thread - #14/INFO]: [Not Secure] <xxxTASHINxxx> alr
+[22:54:08] [Async Chat Thread - #15/INFO]: [Not Secure] <xxxTASHINxxx> nice farm
+[22:54:24] [Async Chat Thread - #14/INFO]: [Not Secure] <xxxTASHINxxx> middle e ekta zombie de
+[22:54:33] [Async Chat Thread - #15/INFO]: [Not Secure] <AmiAkibNa> lmao
+[22:54:38] [Async Chat Thread - #14/INFO]: [Not Secure] <AmiAkibNa> best manual automatic farm
+[22:54:41] [Async Chat Thread - #15/INFO]: [Not Secure] <AmiAkibNa> ami gelam
+[22:54:42] [Async Chat Thread - #14/INFO]: [Not Secure] <AmiAkibNa> khaite
+[22:54:42] [Async Chat Thread - #15/INFO]: [Not Secure] <xxxTASHINxxx> taile zombie golden re lure korbo
+[22:54:45] [Server thread/INFO]: AmiAkibNa lost connection: Disconnected
+[22:54:45] [Server thread/INFO]: AmiAkibNa left the game
+[22:54:59] [Server thread/INFO]: xxxTASHINxxx issued server command: /home
+[23:13:35] [Server thread/INFO]: xxxTASHINxxx lost connection: Disconnected
+[23:13:35] [Server thread/INFO]: xxxTASHINxxx left the game
+[23:16:28] [Server thread/INFO]: Stopping server
+[23:16:28] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v21.3
+[23:16:28] [Server thread/INFO]: [CoreProtect] Finishing up data logging. Please wait...
+[23:16:29] [Server thread/INFO]: [CoreProtect] Success! Disabled CoreProtect v21.3
+[23:16:29] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.19.7
+[23:16:29] [Server thread/INFO]: [SetHomes] Disabling SetHomes v1.3.0
+[23:16:29] [Server thread/INFO]: [SimpleTpa] Disabling SimpleTpa v6.2
+[23:16:29] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
+[23:16:29] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been disabled on version 6.2
+[23:16:29] [Server thread/INFO]: [Essentials] Disabling Essentials v2.19.7
+[23:16:29] [Server thread/INFO]: Saving players
+[23:16:29] [Server thread/INFO]: Saving worlds
+[23:16:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[leave]'/minecraft:overworld
+[23:16:29] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'leave'
+[23:16:29] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'leave'
+[23:16:29] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'leave'
+[23:16:29] [Server thread/INFO]: [ChunkHolderManager] Saved 8 block chunks, 223 entity chunks, 0 poi chunks in world 'leave' in 0.05s
+[23:16:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (leave): All chunks are saved
+[23:16:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[leave_nether]'/minecraft:the_nether
+[23:16:30] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'leave_nether'
+[23:16:30] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'leave_nether'
+[23:16:30] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'leave_nether'
+[23:16:30] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 88 entity chunks, 0 poi chunks in world 'leave_nether' in 0.01s
+[23:16:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23:16:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[leave_the_end]'/minecraft:the_end
+[23:16:30] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'leave_the_end'
+[23:16:30] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'leave_the_end'
+[23:16:30] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'leave_the_end'
+[23:16:30] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 10 entity chunks, 0 poi chunks in world 'leave_the_end' in 0.01s
+[23:16:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23:16:30] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[23:16:30] [Server thread/INFO]: Flushing Chunk IO
+[23:16:30] [Server thread/INFO]: Closing Thread Pool
+[23:16:30] [Server thread/INFO]: Closing Server
