@@ -13,10 +13,10 @@
 # 	Use %s as the seconds variable in the cool down message.
 
 max-homes:
-  default: 0
+  default: 10
 max-homes-msg: §4You have reached the maximum amount of saved homes!
-tp-delay: 3
-tp-cooldown: 0
-tp-cancelOnMove: false
-tp-cancelOnMove-msg: §4Movement detected! Teleporting has been cancelled!
-tp-cooldown-msg: §4You must wait another %s second(s) before teleporting!
+tp-delay: 2
+tp-cooldown: 20
+tp-cancelOnMove: true
+tp-cancelOnMove-msg: §4madarchod detected! noris na
+tp-cooldown-msg: §4madarchod koybar tp koros ? wait another %s second(s) before teleporting!
