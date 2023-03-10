@@ -1,2 +1,17 @@
-allNamedHomes: {}
-unknownHomes: {}
+allNamedHomes:
+  c7797be3-898d-3cca-8d09-70e0d7372e6f:
+    spiderfarm:
+      world: leave
+      x: 458.30000001192093
+      y: -2.0
+      z: -99.69999998807907
+      pitch: 30.498474
+      yaw: -47.911987
+unknownHomes:
+  fc1c7f89-4bfb-39c2-89a0-d1732614703e:
+    world: leave
+    x: 372.9832021109972
+    y: 66.0
+    z: -67.9934354728539
+    pitch: 26.220333
+    yaw: -126.67831
