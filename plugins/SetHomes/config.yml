@@ -13,7 +13,7 @@
 # 	Use %s as the seconds variable in the cool down message.
 
 max-homes:
-  default: 10
+  default: 0
 max-homes-msg: §4You have reached the maximum amount of saved homes!
 tp-delay: 2
 tp-cooldown: 20
